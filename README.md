@@ -4,9 +4,9 @@
 
 One line of code to add AppStore user review Alert.
 
-(1) Introduce frequency control mechanism to avoid disturbing users. Up to 3 prompts per year. https://developer.apple.com/cn/app-store/ratings-and-reviews/
+(1) Introduce frequency control mechanism to avoid disturbing users. Up to 3 times per year. https://developer.apple.com/cn/app-store/ratings-and-reviews/
 
-(2) When the user triggers the prompt 10 times, the prompt will appear. Support for specifying the strategy (counting when SwiftUI.View disappears or appears).
+(2) When the user tries to triggers the alert 10 times, the review alert will appear. Support for specifying the strategy (counting when SwiftUI.View disappears or appears).
 
 ## Usage
 
