@@ -12,7 +12,7 @@
 
 ## 使用
 
-SystemPlayerView累计消失10次（即用户观看10次视频之后），触发评分弹窗。
+`SystemPlayerView`累计消失`10`次（即用户观看10次视频之后），触发评分弹窗。
 
 ```Swift
 SystemPlayerView()
@@ -24,7 +24,7 @@ SystemPlayerView()
 		.requestReviewIfNeeded(strategy: .disappear)
 ```
 
-SystemPlayerView累计出现10次，触发评分弹窗。
+`SystemPlayerView`累计出现`10`次，触发评分弹窗。
 
 ```Swift
 SystemPlayerView()
