@@ -1,18 +1,16 @@
 # RequestReview
 
-## 介绍
+## Introduction
 
-一行代码接入AppStore用户评价弹窗。
+One line of code to add AppStore user review prompt.
 
-（1）引入频控机制，避免打扰用户。全年最多弹出3次 https://developer.apple.com/cn/app-store/ratings-and-reviews/
+(1) Introduce frequency control mechanism to avoid disturbing users. Up to 3 prompts per year. https://developer.apple.com/cn/app-store/ratings-and-reviews/
 
-（2）用户累计触发10次，弹一次窗。支持指定策略（在SwiftUI.View消失的时候还是出现的时候进行计数）
+(2) When the user triggers the prompt 10 times, the prompt will appear. Support for specifying the strategy (counting when SwiftUI.View disappears or appears).
 
+## Usage
 
-
-## 使用
-
-`SystemPlayerView`累计消失`10`次（即用户观看10次视频之后），触发评分弹窗。
+`SystemPlayerView` accumulates `10` disappearances (i.e. after the user watches 10 videos), triggering the review alert.
 
 ```Swift
 SystemPlayerView()
@@ -24,7 +22,7 @@ SystemPlayerView()
 		.requestReviewIfNeeded(strategy: .disappear)
 ```
 
-`SystemPlayerView`累计出现`10`次，触发评分弹窗。
+`SystemPlayerView` accumulates `10` appearances, triggering the review alert.
 
 ```Swift
 SystemPlayerView()
