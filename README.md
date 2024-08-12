@@ -2,7 +2,7 @@
 
 ## Introduction
 
-One line of code to add AppStore user review prompt.
+One line of code to add AppStore user review Alert.
 
 (1) Introduce frequency control mechanism to avoid disturbing users. Up to 3 prompts per year. https://developer.apple.com/cn/app-store/ratings-and-reviews/
 
