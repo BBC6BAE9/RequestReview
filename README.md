@@ -14,17 +14,17 @@ One line of code to add AppStore user review prompt.
 
 ```Swift
 SystemPlayerView()
-		.requestReviewIfNeeded()
+    .requestReviewIfNeeded()
 ```
 
 ```
 SystemPlayerView()
-		.requestReviewIfNeeded(strategy: .disappear)
+    .requestReviewIfNeeded(strategy: .disappear)
 ```
 
 `SystemPlayerView` accumulates `10` appearances, triggering the review alert.
 
 ```Swift
 SystemPlayerView()
-		.requestReviewIfNeeded(strategy: .appear)
+    .requestReviewIfNeeded(strategy: .appear)
 ```
